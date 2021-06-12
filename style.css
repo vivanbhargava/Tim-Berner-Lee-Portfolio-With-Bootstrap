@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+
+.mynavbar{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.menu {
+    top: 0px;
+    z-index: 10;
+    position: fixed;
+    background: white;
+    margin-top: 0px;
+    width: 100%;
+    list-style: none;
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#welcome {
+    background: linear-gradient(lightblue, yellowgreen);
+    width: 110%;
+    margin: 0px;
+    margin-left: -10px;
+    right: 0px;
+    z-index: 1;
+    padding-top: 100px;
+    margin: -20px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    color: red;
+
+}
+
+#name {
+    font-family: cursive;
+    color: red;
+}
+
+h2 {
+    color: red;
+}
+
+#main {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
+
+.line {
+    height: 5px;
+    width: 100px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+p {
+    max-width: 80%;
+    margin: 25px auto;
+    color: red;
+}
+
+#videos {
+    background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
+}
+
+#work {
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
+
+#writings {
+    background: linear-gradient(lightblue, yellowgreen);
+    margin: -20px;
+}
+
+#writings a {
+    text-shadow: none !important;
+}
+
+#contact {  
+    background: linear-gradient(yellowgreen, lightblue);
+    margin: -20px;
+}
+
+#contact h3 {
+    display: inline;
+}
